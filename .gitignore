@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Python/ML caches and local environments
+.venv/
+venv/
+env/
+*.joblib
+*.pkl.tmp
+
+# LaTeX/build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Large intermediate embedding caches not required for the released analyses
+*.pt
+*.safetensors
+experiment/features/esm_full/
+experiment/features/prot_full/
+experiment/features/esm3_79/layer_*/
+experiment/features/esm3_79/layer_*_mutant/
